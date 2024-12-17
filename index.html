@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Historical Election Map</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Correct D3 v7 CDN -->
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+    </head>
+    
+<body>
+    <h1>Historical Election Map</h1>
+    <div id="controls">
+        <label for="year-select">Select Year: </label>
+        <select id="year-select">
+            <option value="2000">2000</option>
+            <option value="2004">2004</option>
+            <option value="2008">2008</option>
+            <option value="2012">2012</option>
+            <option value="2016">2016</option>
+            <option value="2020" selected>2020</option>
+        </select>
+    </div>
+    <div id="map"></div>
+    <script src="js/main.js"></script>
+</body>
+</html>
